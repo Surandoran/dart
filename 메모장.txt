@@ -1,6 +1,15 @@
 main : dart 프로그램의 entry point 즉 반드시 main 함수가 있어야함. main 함수가 없을 시 오류가 출력.
 세미콜론 : dart 에선 일부 명령줄엔 ;가 있어야 한다.
+null safety : 개발자가 null 값을 참조할 수 없도록 만듬. 만약 null을 참조하게 되면 에러를 발생.
 dart variables{
     var : 함수나 메소드 내부에 지역 변수를 선언할 때에는 var를 사용 하지만 class에서 변수나 property를 선언할 때에는 타입을 지정
-
+    dynamic : 여러가지 타입을 가질 수 있는 변수에 쓰는 키워드
+    nullable : 변수끝에 ?를 붙임.
+    final : 변하지 않는 함수를 만들 수 있음.
+    late : 초기 데이터 없이 변수를 선언할 수 있게 해줌.
+    const : compile-time constant를 만들어 줌
 }
+
+const와 final의 차이 : final은 런타임 중 만들어질 수 있음.
+사용자가 앱을 실행하면서 변수를 만들 수 있음.
+하지만 const는 컴파일 하기 전에 값을 알고 있어야 함.
