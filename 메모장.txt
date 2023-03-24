@@ -8,6 +8,11 @@ dart variables{
     final : 변하지 않는 함수를 만들 수 있음.
     late : 초기 데이터 없이 변수를 선언할 수 있게 해줌.
     const : compile-time constant를 만들어 줌
+    num : int 와 double의 부모class
+    List : 함수안에 하나의 집합을 만든다. String interpolation : String 형끼리 붙이고 싶다면 $뒤에 변수명을 붙인다. 정수형 계산을 하고 싶으면 ${변수명 + 계산식}을 넣는다
+                                        collection_for : List형에서 List를 추가하고 싶다면 for (var 변수명 in 추가하려는변수명) "<ABS(고정된 값)> $변수명"
+    Map : Map<Key, value> 값의 집합을 만든다.
+    Set : 유니크한 리스트를 만든다.
 }
 
 const와 final의 차이 : final은 런타임 중 만들어질 수 있음.
